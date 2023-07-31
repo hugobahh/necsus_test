@@ -1,0 +1,114 @@
+hr {
+    height: 1px;
+    background-color: black;
+   }
+
+   /*==============================*/
+   div#is-relative{
+    max-width: 110px;
+    position: relative;
+   }
+
+   /* El icono  "position: absolute"
+    * Ademas le damos un "display: block" y lo posicionamos */
+   #icon{
+    position: absolute;
+    display: block;
+    bottom: .4rem;
+    right: .3rem;
+
+    user-select: none;
+    cursor: pointer;
+  }
+   input.input{
+     width: 110px;
+     padding-right: 1.6rem;
+  }
+
+  /*==============================*/
+     .search-container {
+       position: relative;
+       display: inline-block;
+     }
+
+     .search-container input[type="text"] {
+       padding-right: 25px; /* Espacio para el icono */
+     }
+
+     .search-container .search-icon {
+       position: absolute;
+       top: 50%;
+       right: 5px;
+       transform: translateY(-50%);
+       pointer-events: none; /* Evita que el icono sea clickeable */
+     }
+
+  /*===========================================*/
+  /*===================================*/
+   @media only screen and (max-width: 1900px) {
+     img {
+       width: 95%;
+     }
+     iframe {
+       width: 280px;
+       height: 300px;
+       resize: both;
+       overflow: auto;
+     }
+
+   }
+   @media only screen and (max-width: 1200px) {
+     img {
+       width: 90%;
+     }
+     iframe {
+       width: 240px;
+       height: 300px;
+       resize: both;
+       overflow: auto;
+     }
+
+   }
+
+   @media only screen and (max-width: 1000px) {
+     img {
+       width: 80%;
+     }
+     iframe {
+       width: 200px;
+       height: 240px;
+       resize: both;
+       overflow: auto;
+     }
+   }
+
+   @media only screen and (max-width: 800px) {
+     img {
+       width: 70%;
+     }
+     iframe {
+       height: 400px;
+       width: 450px;
+       resize: both;
+       overflow: auto;
+     }
+   }
+
+   @media only screen and (max-width: 600px) {
+     img {
+       width: 50%;
+     }
+     iframe {
+       height: 300px;
+       width: 300px;
+       resize: both;
+       overflow: auto;
+     }
+   }
+
+  .div-opt {
+   background-image: url('img/partes_adapt.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+ }
